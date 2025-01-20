@@ -1,0 +1,28 @@
+{
+          "name": "apple-framework",
+          "version": "1.0.0",
+          "main": "dist/ultra-core.min.js",
+          "scripts": {
+                    "start": "node dist/ultra-core.min.js",
+                    "build": "tsc --outDir dist",
+                    "test": "jest"
+          },
+          "dependencies": {
+                    "typescript": "^4.0.0",
+                    "ts-node": "^10.0.0",
+                    "jest": "^28.0.0",
+                    "/Users/aet/Documents/GitHub/aetsystem/src/lib/quantum/core.sh": "file:./packages/quantum-core"
+          },
+          "repository": {
+                    "type": "git",
+                    "url": "git+https://github.com/hectoraparici0/apple-framework.git"
+          },
+          "keywords": [],
+          "author": "",
+          "license": "ISC",
+          "bugs": {
+                    "url": "https://github.com/hectoraparici0/apple-framework/issues"
+          },
+          "homepage": "https://github.com/hectoraparici0/apple-framework#readme",
+          "description": ""
+}
