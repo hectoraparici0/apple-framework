@@ -8,9 +8,7 @@ FRAMEWORK_PATH = "/Users/aet/Desktop/apple_framework"
 DEPLOY_SCRIPT = os.path.join(FRAMEWORK_PATH, "deploymac.sh")
 
 def create_package_json():
-    """
-    Create a package.json for the quantum-core directory.
-    """
+    """ Create a package.json for the quantum-core directory."""
     print("Creating package.json for quantum-core...")
     package_json_path = os.path.join(QUANTUM_PATH, "package.json")
     
